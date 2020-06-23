@@ -1,0 +1,147 @@
+.footer_wrapper{
+    background: rgb(48, 48, 48);
+    height: 20rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_wrapper .main-section{
+    margin-top: 2.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.footer_wrapper .main-section .brand{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    flex: 1;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.footer_wrapper .main-section .citemap{
+    margin-top: 0.6rem;
+    margin-left: 1rem;
+    margin-right: 5rem;
+    flex: 3;
+    display: flex;
+    flex-direction: row;          
+}
+
+.footer_wrapper .main-section .citemap .column_wrapper{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_wrapper .main-section .citemap .column_wrapper .title{
+    font-size: 0.85rem;
+}
+
+.footer_wrapper .main-section .citemap .column_wrapper .item{
+    margin-top: 0.5rem;
+    color: rgb(194, 194, 194);
+    font-size: 0.65rem;
+    font-weight: 300;
+}
+
+.footer_wrapper .main-section .citemap .column_wrapper .app-image{
+    margin-top: 0.3rem;
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.footer_wrapper .main-section .cs-center{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.footer_wrapper .main-section .cs-center .title{
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.footer_wrapper .main-section .cs-center .phone-number{
+    color: white;
+    padding-top: 0.2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.footer_wrapper .main-section .cs-center .discription{
+    color: white;
+    padding-top: 0.2rem;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+.footer_wrapper .main-section .cs-center .e-mail{
+    color: white;
+    padding-top: 0.2rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.footer_wrapper .sub-section{
+    margin-top: 2.5%;
+    margin-left: 10%;
+    margin-right: 10%;       
+}
+
+.footer_wrapper .sub-section .intro{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_wrapper .sub-section .intro .item{
+    color: rgb(194, 194, 194);
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+.footer_wrapper .sub-section .intro .slash{
+    color: rgb(194, 194, 194);
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+
+
+.footer_wrapper .sub-section .general-info{
+    margin-top: 0.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_wrapper .sub-section .general-info .decription{
+    margin-top:0.2rem;
+    color: rgb(194, 194, 194);
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+.footer_wrapper .sub-section .brand-info{
+    margin-top:0.2rem;
+    display: flex;
+    flex-direction: row;
+}
+.footer_wrapper .sub-section .brand-info .item{
+    margin-right: 1rem;
+    color: rgb(194, 194, 194);
+    font-size: 0.7rem;
+    font-weight: 300;
+}

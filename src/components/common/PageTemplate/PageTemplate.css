@@ -1,0 +1,11 @@
+.pagetemplate_wrapper {
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+main { 
+    min-height: calc(100vh - 10rem);
+}

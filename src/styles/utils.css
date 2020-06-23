@@ -1,0 +1,7 @@
+:root {
+    --main-background-color: white;
+    --wide-screen: 1400px;
+    --large-screen: 1024px;
+    --medium-screen: 768px;
+    --small-screen: 320px;
+}
