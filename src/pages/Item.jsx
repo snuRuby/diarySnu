@@ -38,7 +38,7 @@ const Item = () => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button onClick={() => console.log('Fuck')}>
+        <Button onClick={() => console.log('What the')}>
           <ThumbUpIcon />
           <Typography>
             {movieId}
